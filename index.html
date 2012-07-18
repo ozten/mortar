@@ -41,17 +41,10 @@
       <h1>Open Web App Bootstrap</h1>
 
       <section class="downloads">
-        <div class="download-block">
-          <a href="https://github.com/jlongster/mortar/zipball/master" class="download">
-            <img src="img/cake.png" />
-            <div>Download</div>
-          </a>
-        </div>
-
-        <div class="download-block volo">
-          <pre><code>$ npm install -g volo
-$ volo create &lt;name&gt; mozilla/mortar</code></pre>
-        </div>
+        <a href="https://github.com/mozilla/mortar/blob/master/builds/app-stub.zip?raw=true" class="download">
+          <img src="img/cake.png" />
+          <div>Download</div>
+        </a>
       </section>
 
       <section class="intro">
@@ -101,12 +94,6 @@ $ volo create &lt;name&gt; mozilla/mortar</code></pre>
         <h4>Volo</h4>
 
         <p>
-          There are two ways to download this, as indicated at the top.
-          You can download the zipball, or use the <code>volo</code>
-          command directly.
-        </p>
-
-        <p>
           <a href="https://github.com/volojs/volo">volo</a> is a helpful
           tool which provides several commands to perform various
           activities for your apps, such as minimizing assets, deploying
@@ -114,16 +101,11 @@ $ volo create &lt;name&gt; mozilla/mortar</code></pre>
         </p>
 
         <p>
-          It is recommend that you install and use it directly (see
-          the <code>npm</code> code at the top). If you do not want to
-          install volo, it comes bundled inside the <code>tools</code>
-          directory, but you need to make it executable. For the sake of
-          these instructions, you can also alias it so we can
-          invoke <code>volo</code> directly:
+          If you haven't installed volo yet, you need to so that you
+          can invoke volo commands:
         </p>
 
-        <pre><code>$ chmod +x ./tools/volo
-$ alias volo=./tools/volo</code></pre>
+        <pre><code>npm install -g volo</code></pre>
 
       </section>
 

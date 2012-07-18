@@ -90,8 +90,6 @@ a.download {
     font-size: 1.1em;
 }
 .download-block {
-    
-    float: left;
     margin: 0 .5em;
 }
 .download-block a:hover {
